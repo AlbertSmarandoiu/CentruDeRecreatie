@@ -1,52 +1,92 @@
-.navbar{
+/* Navbar general */
+.navbar {
     position: sticky;
-    align-items: center;
+    top: 0;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    margin: 30px 170px;
+    padding: 10px 20px;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.nav-menu{
+
+.navbar-logo {
+    width: 50px; /* Dimensiune mai mică a logo-ului */
+    height: auto;
+}
+
+/* Meniul */
+.nav-menu {
     display: flex;
-    align-items: center;
     list-style: none;
-    gap: 60px;
-    font-size: 20px ;
+    gap: 20px;
+    font-size: 16px;
 }
-/* .nav-connect{
-    padding: 20px 40px;
-    border-radius: 50px;
-    background: linear-gradient(267deg , #DA7c25 , 0.36 , #b923e1 , 0.36);
-    font-size: 22px;
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-menu.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    gap: 10px;
+}
+
+.nav-menu li {
+    margin: 5px 0;
+}
+
+/* Meniul Hamburger */
+.hamburger-menu {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
     cursor: pointer;
-    transition: 0.5s;
+    color: #333;
 }
 
-.nav-connect:hover{
-    transform: scale(1.05);
-} */
-
+/* Buton Contact */
 .nav-connect {
-    padding: 15px 30px; /* Adjusted padding for better proportions */
-    border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0%, #B923E1 100%); /* Fixed gradient syntax */
-    font-size: 18px; /* Adjusted font size for balance */
-    color: white; /* Ensures text contrast */
-    font-weight: bold; /* Makes text more prominent */
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: linear-gradient(267deg, #DA7C25 0%, #B923E1 100%);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
     text-align: center;
-    text-decoration: none; /* Removes any link styles */
     cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .nav-connect:hover {
-    transform: scale(1.1); /* Enlarges the button slightly */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* Responsivitate */
 @media (max-width: 768px) {
-    .navbar {
-        padding: 10px 20px;
-    }
     .nav-menu {
-        gap: 20px;
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .nav-connect {
+        font-size: 12px; /* Dimensiune mai mică */
+        padding: 8px 15px;
     }
 }

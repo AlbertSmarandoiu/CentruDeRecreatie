@@ -37,12 +37,15 @@
 }
 
 .aboutLeft img {
-    max-width: 800px; /* Restrict image size for responsiveness */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 15px; /* Add rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow for better visuals */
-    margin-left: -500px;
+    max-width: 100%; /* Se asigură că imaginea nu depășește containerul */
+    height: auto; /* Păstrează raportul de aspect */
+    border-radius: 15px; /* Colțuri rotunjite pentru un aspect plăcut */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Umbra imaginii */
+    margin: 0 auto; /* Aliniază imaginea pe centru */
+    display: block; /* Elimină eventualele aliniamente implicite */
 }
+
+
 
 .aboutRight {
     display: flex;
@@ -89,4 +92,20 @@
 .about-service:hover {
     transform: scale(1.05); /* Subtle enlargement */
     opacity: 0.9; /* Slight dimming */
+}
+
+
+.about-section {
+    display: flex;
+    flex-wrap: wrap; /* Permite wrapping pe ecrane mici */
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: center; /* Centrează conținutul în interiorul secțiunii */
+}
+
+@media (max-width: 768px) {
+    .aboutLeft img {
+        max-width: 90%; /* Reduce dimensiunea imaginii pe ecrane mici */
+        margin: 0 auto; /* Centrează imaginea */
+    }
 }
