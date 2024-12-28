@@ -1,0 +1,52 @@
+.navbar{
+    position: sticky;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 170px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px ;
+}
+/* .nav-connect{
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg , #DA7c25 , 0.36 , #b923e1 , 0.36);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-connect:hover{
+    transform: scale(1.05);
+} */
+
+.nav-connect {
+    padding: 15px 30px; /* Adjusted padding for better proportions */
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0%, #B923E1 100%); /* Fixed gradient syntax */
+    font-size: 18px; /* Adjusted font size for balance */
+    color: white; /* Ensures text contrast */
+    font-weight: bold; /* Makes text more prominent */
+    text-align: center;
+    text-decoration: none; /* Removes any link styles */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.nav-connect:hover {
+    transform: scale(1.1); /* Enlarges the button slightly */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+}
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 20px;
+    }
+    .nav-menu {
+        gap: 20px;
+    }
+}

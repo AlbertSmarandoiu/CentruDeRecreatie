@@ -1,0 +1,47 @@
+.hero {
+    position: relative; /* Allows child elements to use absolute positioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.hero img {
+    width: 100%; /* Ensure the image spans the container */
+    height: auto;
+    object-fit: cover;
+}
+
+.hero h1, .hero p {
+    position: absolute; /* Makes the text overlay the image */
+    color: white; /* White text for better contrast */
+    text-align: center;
+    width: 60%; /* Optional: Adjust the width of the text container */
+    margin: 0; /* Remove default margins */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow for readability */
+}
+
+.hero h1 {
+    top: 10%; /* Position the heading relative to the image */
+    font-size: 3rem; /* Adjust font size */
+    font-weight: 800;
+}
+
+/* .hero p {
+    top: 20%; 
+    font-size: 1.2rem; 
+} */
+.hero h1 span {
+    background: linear-gradient(to right, #df8909 10%, #b415ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.hero p{
+    width: 50%;
+    text-align: center;
+    top: 30;
+}
