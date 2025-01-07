@@ -6,6 +6,7 @@ import About from './Components/About/About'
 import Galerie from './Components/Galerie/Galerie'
 import Footer from './Components/Footer/Footer'
 import Drepturi from './Components/Drepturi/Drepturi'
+import ObiectiveTuristice from './Components/ObiectiveTuristice/ObiectiveTuristice'
 
 
 const App = () => {
@@ -15,7 +16,9 @@ const App = () => {
       <Hero/>
       <About/>
       <Galerie/>
+      <ObiectiveTuristice/>
       <Footer/>
+      
       <Drepturi/>
     </div>
   )

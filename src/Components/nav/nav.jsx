@@ -22,7 +22,16 @@ const Nav = () => {
         <li><a href="#galerie">Galerie</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <div className="nav-connect">Ia legătura cu mine</div>
+      <div className="nav-connect">
+        <a
+          href="https://wa.me/+40762439377?text=Hello%,%20As%20vrea%20sa%20sa%20fac%20o%20revervare."
+          className="btn" // Am folosit o clasă CSS simplă aici
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ia legătura cu mine
+        </a>
+      </div>
     </nav>
   );
 };

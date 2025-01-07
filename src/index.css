@@ -21,6 +21,21 @@ a {
 a:hover {
   color: #535bf2;
 } */
+button {
+  height: 45px;
+  width: 180px;
+  /* background-color: #cb5c00; */
+  background-color: #995515fa;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 1s;
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: 2px 2px 3px #ffffff94, inset 3px 3px 10px #ffffff94; 
+  font-family: 'Poppins', sans-serif; /* Font pentru butoane */
+}
+
 
 *{
   margin:0;
@@ -29,7 +44,7 @@ a:hover {
 
 body {
   height: 100;
-  background: #161513;
+  background: #2b3ee6;
   color: white;
   font-family: 'outfit';
 }

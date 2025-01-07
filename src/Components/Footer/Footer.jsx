@@ -21,7 +21,7 @@ function Footer(){
             </div>
             <div className={footerCSS.FooterLinks}>
             <h3>Locatia</h3>
-                <p>Romania, Judetul Gorj ,Novaci </p>
+                <p>Romania, Judetul Gorj ,Baia de Fier </p>
             </div>
             <div className={footerCSS.FooterLinks}>
             <h3>Contact Us</h3>
@@ -33,7 +33,7 @@ function Footer(){
                         rel="noopener noreferrer"
                         className={footerCSS.link}
                     >
-                        Baia de Fier , 
+                        Baia de Fier, Strada pesterii 
                     </a>
                 </p>
                 <p>
