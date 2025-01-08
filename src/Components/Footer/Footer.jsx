@@ -17,14 +17,14 @@ function Footer(){
                 {/* <p>Contact us</p> */}
                 <li><a href="#contact">Contact</a></li>
                 {/* <p>Camere</p> */}
-                <li><a href="#camere">Camere</a></li>
+                <li><a href="#camere">Galerie</a></li>
             </div>
             <div className={footerCSS.FooterLinks}>
             <h3>Locatia</h3>
                 <p>Romania, Judetul Gorj ,Baia de Fier </p>
             </div>
             <div className={footerCSS.FooterLinks}>
-            <h3>Contact Us</h3>
+            <h3>Contactează-ne</h3>
             <p>
                     Adresa: 
                     <a

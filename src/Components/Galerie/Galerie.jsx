@@ -5,14 +5,15 @@ import img1 from "./../../assets/casa.jpg";
 // import img2 from "./../../assets/galerie2.jpg";
 import img3 from "./../../assets/casa1.jpg";
 import img4 from "./../../assets/casa2.jpg";
-import img5 from "./../../assets/casa3.jpg";
-import img6 from "./../../assets/casa4.jpg";
-import img7 from "./../../assets/casa5.jpg";
+import img5 from "./../../assets/pozav5.jpg";
+import img6 from "./../../assets/pozav2.jpg";
+import img7 from "./../../assets/pozav1.jpg";
 import img8 from "./../../assets/casa6.jpg";
-import img9 from "./../../assets/casa7.jpg";
-import img10 from "./../../assets/casa8.jpg";
-import img11 from "./../../assets/casa94.jpg";
-import img12 from "./../../assets/casa10.jpg"
+import img9 from "./../../assets/pozav10.jpg";
+import img10 from "./../../assets/pozav12.jpg";
+import img11 from "./../../assets/pozav13.jpg";
+import img12 from "./../../assets/pozav14.jpg";
+import img13 from "./../../assets/pozav15.jpg"
 // import img12 from "./../../assets/galerie12.jpg";
 // import img13 from "./../../assets/IMG-20241117-WA0015.jpg";
 // import img14 from "./../../assets/IMG-20241117-WA0016.jpg";
@@ -25,7 +26,7 @@ import img12 from "./../../assets/casa10.jpg"
 const images = [
     img1, img3, img4,img5 , img6 , 
     img7 , img8 , img9 , 
-    img10,img11,img12
+    img10,img11,img12,img13
 ];
 
 function Galerie() {

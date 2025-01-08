@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className='hero'>
       <img  src={poza_profil} alt = ""/>
-      <h1><span>Centru de agrement</span> Yanis & Luyza</h1>
+      <h1>Centru de agrement Yanis & Luyza</h1>
       {/* <p>Pozitionat in baia de fier, 20 cuv vad eu</p> */}
       <div className="hero-action"></div>
 

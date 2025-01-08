@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import poza_despre from '../../assets/back.png'
-import poza_profil from '../../assets/casa11.jpg'
+import poza_profil from '../../assets/pozav1.jpg'
 
 
 const About = () => {
