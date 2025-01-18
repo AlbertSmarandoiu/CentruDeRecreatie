@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import poza_profil from '../../assets/casa3.jpg'
+import poza_profil from '../../assets/pozacentruagrement.jpg'
 
 
 const Hero = () => {

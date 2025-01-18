@@ -17,8 +17,8 @@ const About = () => {
         </div>
         <div className="aboutRight">
             <div className="about-paragraph"></div>
-            <p>Posibilitatea de a petrece timpul liber in aerul curat al statiunii turistice Baia de Fier-Gorj</p>
-            <p>    Centrul de Agrement este amplasat la 30 km de statiunea turistica Rânca Sky Resort.Din curtea Centrului de Agrement cât și din interiorul Centrului le vei privii pe geam, vei vedea muntele si statiunea Rânca in toata splendoarea ei.Ofera diverse facilitati, un mediu plăcut pentru petrecerea timpului liber prin activități sportive si recreative</p>
+            <p>Posibilitatea de a petrece timpul liber în aerul curat al stațiunii turistice Baia de Fier, Gorj</p>
+            <p>    Centrul de Agrement este amplasat la 30 km de statiunea turistica Rânca Sky Resort.Din curtea Centrului de Agrement cât și din interiorul Centrului de vei privi pe geam, vei vedea muntele si statiunea Rânca in toata splendoarea ei.Ofera diverse facilitati, un mediu plăcut pentru petrecerea timpului liber prin activități sportive si recreative</p>
             <p>Centrul este un spatiu integral de distractie si voie buna ce se adreseaza unui  trafic extis de la copii tineri pana la adulti si familii</p>
             <p>Cu un design modern va pune la dispozitie o serie de jocuri pentru activitati recreative, atat in interior cat si in exeterior, de la cele mai clasice pana la cele mai moderne.</p>
         

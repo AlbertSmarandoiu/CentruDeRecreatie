@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './navbar.css';
-import logo from '../../assets/logo5.jpg';
+import logo from '../../assets/logo4.png';
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,7 +24,7 @@ const Nav = () => {
       </ul>
       <div className="nav-connect">
         <a
-          href="https://wa.me/+40762439377?text=Hello%,%20As%20vrea%20sa%20sa%20fac%20o%20revervare."
+          href="https://wa.me/+40762439377?text=Buna,%20As%20vrea%20sa%20fac%20o%20rezervare."
           className="btn" // Am folosit o clasă CSS simplă aici
           target="_blank"
           rel="noopener noreferrer"
