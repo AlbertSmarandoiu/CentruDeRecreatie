@@ -6,7 +6,7 @@ import poza_profil from '../../assets/pozav1.jpg'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div id="despre-noi" className='about'>
       <div className="about-title">
         <h1>Despre noi:</h1>
         <img src = {poza_despre}/>

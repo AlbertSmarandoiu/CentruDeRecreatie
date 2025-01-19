@@ -68,7 +68,7 @@ function Galerie() {
     };
 
     return (
-        <div id="galerieFoto" className={galerieCSS.galerie_Wrapper}>
+        <div id="galerie" className={galerieCSS.galerie_Wrapper}>
             <h2 className="section_Title">
                 Galerie <span>Foto</span>
             </h2>

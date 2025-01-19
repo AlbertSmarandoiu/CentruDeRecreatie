@@ -17,7 +17,9 @@ function Footer(){
                 {/* <p>Contact us</p> */}
                 <li><a href="#contact">Contact</a></li>
                 {/* <p>Camere</p> */}
-                <li><a href="#camere">Galerie</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+
+                <li><a href="https://www.afir.ro/">Portalul Afir-Informatii</a></li>
             </div>
             <div className={footerCSS.FooterLinks}>
             <h3>Locatia</h3>
